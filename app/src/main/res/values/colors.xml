@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bmiBgColo1">#BC2020</color>
+    <color name="bmiBgColo2">#D38888</color>
+    <color name="bmiBgColo3">#FFE400</color>
+    <color name="bmiBgColo4">#008137</color>
+    <color name="bmiBgColo5">#8A0101</color>
+</resources>

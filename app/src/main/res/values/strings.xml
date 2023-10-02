@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="BMI_h1_text">BMI Calculator</string>
+    <string name="BMI_age_hint">Your Age</string>
+    <string name="BMI_Weight_hint">Weight (in Kg)</string>
+    <string name="BMI_heightFeet_hint">Height (in feet)</string>
+    <string name="BMI_heightInches_hint">Height (in inches)</string>
+</resources>

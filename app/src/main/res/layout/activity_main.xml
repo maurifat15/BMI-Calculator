@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00BCD4"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/bmillmain"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BMI_h1_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="26dp"
+        android:textColor="@color/white"></TextView>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBMIAge"
+        android:inputType="number"
+        android:hint="@string/BMI_age_hint"
+        android:ems="12"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:orientation="vertical"
+        android:background="#E1AAA8A8"
+        android:textStyle="bold"
+        ></EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBMIWeight"
+        android:inputType="number"
+        android:hint="@string/BMI_Weight_hint"
+        android:ems="12"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:orientation="vertical"
+        android:background="#2C909C"
+        android:textStyle="bold"
+        ></EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBMIHeighFeet"
+        android:inputType="number"
+        android:hint="@string/BMI_heightFeet_hint"
+        android:ems="12"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:orientation="vertical"
+        android:background="#E1AAA8A8"
+        android:textStyle="bold"
+        ></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBMIHeightInches"
+        android:inputType="number"
+        android:hint="@string/BMI_heightInches_hint"
+        android:ems="12"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:orientation="vertical"
+        android:background="#2C909C"
+        android:textStyle="bold"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBMICalculate"
+        android:text="Calculate BMI"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="14dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="#FF5722"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmiResultShowText"
+        android:text="\nBMI: 23 kg/m (Normal) \n\n BMI Prime: 0.92 \n\n Ponderal Index: 12.9 kg/m"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+</LinearLayout>
