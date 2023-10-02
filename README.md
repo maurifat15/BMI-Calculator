@@ -1,6 +1,6 @@
 **BMI Calculator for Android**
 
-**Description:**
+# Heading 1 **Description:**
 
 This BMI Calculator Android app is a simple yet powerful tool to help users track and manage their body mass index (BMI) effectively. Body Mass Index is a widely-used indicator of whether a person has a healthy body weight for their height. Our app provides an intuitive and user-friendly interface to calculate and monitor your BMI, offering valuable insights into your health and fitness journey.
 
